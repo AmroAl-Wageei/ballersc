@@ -26,7 +26,6 @@ import './services.css'
     beat
     height="70px"
     width="70px"
-    onClick={() => alert('Hi!')}
   /> 
        </div>
     <div className="content_services">
@@ -41,7 +40,6 @@ import './services.css'
     rotate
     height="70px"
     width="70px"
-    onClick={() => alert('Hi!')}
   /> 
     </div>
     <div className="content_services">
@@ -58,7 +56,6 @@ import './services.css'
     beat
     height="70px"
     width="70px"
-    onClick={() => alert('Hi!')}
   /> 
     </div>
     <div className="content_services">
@@ -74,7 +71,6 @@ import './services.css'
     beat
     height="70px"
     width="70px"
-    onClick={() => alert('Hi!')}
   /> 
     </div>
     <div className="content_services">
@@ -91,7 +87,6 @@ import './services.css'
     beat
     height="70px"
     width="70px"
-    onClick={() => alert('Hi!')}
   /> 
     </div>
     <div className="content_services">
@@ -108,7 +103,6 @@ import './services.css'
     beat
     height="70px"
     width="70px"
-    onClick={() => alert('Hi!')}
   /> 
     </div>
     <div className="content_services">

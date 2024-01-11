@@ -1,7 +1,7 @@
 import React from 'react'
 // import Navbar from '../components/Navbar/Navbar'
 // import Wavy from '../components/Wavy/wavy'
-// import First from '../components/First/first'
+import First from '../components/First/first'
 import AboutBallers from '../components/Aballers/aballers';
 import Services from '../components/services/services'
 // import Multi from '../components/Multi/multi'
@@ -11,13 +11,21 @@ import Services from '../components/services/services'
 // import Slider from '../components/Slider/slider'
 // import Ballers from '../components/Ballers/ballers'
 // import Footer from '../components/Footer/Footer'
-// import FixedButton from '../components/FixedButton/FixedButton'
-// import ScrollToTop from '../components/ScrollToTop/top'
+import FixedButton from '../components/FixedButton/FixedButton'
+import ScrollToTop from '../components/ScrollToTop/top'
+
+// #BDE4F4
+// #404969
+// #DC552C
+
 export default function home() {
   return (
     <div>
+      <First />
       <AboutBallers />
       <Services />
+      <FixedButton />
+      <ScrollToTop />
     </div>
   )
 }
