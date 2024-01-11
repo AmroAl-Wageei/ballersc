@@ -4,8 +4,8 @@ import React from 'react'
 import First from '../components/First/first'
 import AboutBallers from '../components/Aballers/aballers';
 import Services from '../components/services/services'
-// import Multi from '../components/Multi/multi'
-// import Scan from '../components/Scan/scan';
+import AfterServices from '../components/AfterServices/AfterServices'
+import Scan from '../components/Scan/scan';
 // import Map from '../components/Map/map'
 // import FAQ from '../components/FAQ/faq';
 // import Slider from '../components/Slider/slider'
@@ -24,6 +24,8 @@ export default function home() {
       <First />
       <AboutBallers />
       <Services />
+      <AfterServices />
+      <Scan />
       <FixedButton />
       <ScrollToTop />
     </div>
