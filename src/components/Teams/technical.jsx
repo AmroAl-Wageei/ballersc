@@ -1,8 +1,8 @@
 import React from 'react'
-import Hussien from '../images/Amro.png'
-import Shahed from '../images/Amro.png'
+import Hussien from '../images/hussienTech.png'
+import Shahed from '../images/shahdTech.png'
 import Amro from '../images/Amro.png'
-import Laith from '../images/Amro.png'
+import Laith from '../images/laithTech.png'
 import { useTranslation } from 'react-i18next';
 import './team.css'
 

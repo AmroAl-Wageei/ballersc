@@ -27,15 +27,7 @@ export default function Contact() {
           className="form_control"
           name="fname"
           id="fname"
-          placeholder="First Name"
-          required=""
-        />
-        <input
-          type="text"
-          className="form_control"
-          name="lname"
-          id="lname"
-          placeholder="Last Name"
+          placeholder="Full Name"
           required=""
         />
       </div>

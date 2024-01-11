@@ -1,6 +1,6 @@
 import React  from 'react'
-import Amro  from '../images/Amro.png'
-import Ahmad from '../images/Amro.png'
+import Amro  from '../images/coachAmro.png'
+import Ahmad from '../images/coachAhmad.png'
 import { useTranslation } from 'react-i18next';
 
 import './team.css'
