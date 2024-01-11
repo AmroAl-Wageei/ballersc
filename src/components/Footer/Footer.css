@@ -13,8 +13,8 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
-  color: #777777;
-}
+  color: #404969;
+  font-weight: 500;}
 /* footer::before {
     content: "";
     position: absolute;
@@ -37,7 +37,8 @@ footer .content .top {
   margin-bottom: 50px;
 }
 .content .top .logo-details {
-  color: #777777;
+  color: #404969;
+  font-weight: 500;
   font-size: 30px;
 }
 .content .top .media-icon {
@@ -48,20 +49,21 @@ footer .content .top {
   width: 40px;
   background-color: red;
   margin: 0 8px;
-  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   text-align: center;
   line-height: 40px;
-  color: #777777;
-  text-decoration: none;
-  transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
+  color: #404969;
+  font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 .content .top .media-icon a:nth-child(1) {
   background-color: #4267b2;
@@ -121,9 +123,9 @@ footer .content .link-boxes .box {
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-  color: #777777;
+  color: #404969;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 10px;
   position: relative;
 }
@@ -142,9 +144,9 @@ footer .content .link-boxes .box {
 }
 .content .link-boxes .box li a {
   text-decoration: none;
-  color: #777777;
+  color: #404969;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   opacity: 0.8;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -165,17 +167,19 @@ footer .content .link-boxes .box {
   /* outline-color: none; */
   outline: none;
   border: none;
-  border-bottom: 1px solid #777777;
+  border-bottom: 1px solid #DC552C;
   padding: 5px;
   width: 100%;
   box-sizing: border-box;
   background: none;
   padding: 0 0;
   font-size: 13px;
-  color: #777777;
+  color: #404969;
+  font-weight: 500;
 }
+
 .link-boxes .input-box input::placeholder {
-  color: #777777;
+  color: #404969;
   font-size: 13px;
   font-family: Lato;
   font-size: 14px;

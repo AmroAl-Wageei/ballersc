@@ -21,7 +21,6 @@ function First() {
         <div className='first-icon'>
           <CallOutline
           color={'#a69b9b'}
-          beat
           height="70px"
           width="70px"
         /> 
@@ -36,7 +35,6 @@ function First() {
         <div className='first-icon'>
           <LocationOutline
           color={'#a69b9b'}
-          beat
           height="70px"
           width="70px"
         /> 
@@ -50,7 +48,6 @@ function First() {
         <div className='first-icon'>
           <CalendarSharp
           color={'#a69b9b'}
-          beat
           height="70px"
           width="70px"
           /> 
