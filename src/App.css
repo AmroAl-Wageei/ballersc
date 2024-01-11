@@ -48,3 +48,30 @@ html {
     font-size: 15px;
   }
 }
+
+
+/* ------------------------------  */
+
+  /* Scroll bar */
+
+  ::-webkit-scrollbar {
+    width: 7px;
+ }
+ ::-webkit-scrollbar-track {
+    background-color: #BDE4F4;
+    box-shadow: 0,0,10px,#DDD inset;
+ }
+ ::-webkit-scrollbar-thumb {
+    background-color: #404969;
+    border-radius: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #DC552C;
+ }
+
+  /* End Scroll bar */
