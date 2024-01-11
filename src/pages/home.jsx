@@ -9,7 +9,7 @@ import Scan from '../components/Scan/scan';
 import Ballers from '../components/Ballers/ballers'
 import Gallery from '../components/Gallery/Gallery';
 import Map from '../components/Map/map'
-// import FAQ from '../components/FAQ/faq';
+import FAQ from '../components/FAQ/faq';
 // import Slider from '../components/Slider/slider'
 // import Footer from '../components/Footer/Footer'
 import FixedButton from '../components/FixedButton/FixedButton'
@@ -29,6 +29,7 @@ export default function home() {
       <Scan />
       <Ballers />
       <Gallery />
+      <FAQ />
       <Map />
       <FixedButton />
       <ScrollToTop />
