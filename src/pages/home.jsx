@@ -13,6 +13,7 @@ import FAQ from '../components/FAQ/faq';
 import Footer from '../components/Footer/Footer'
 import FixedButton from '../components/FixedButton/FixedButton'
 import ScrollToTop from '../components/ScrollToTop/top'
+import Navbar from '../components/NavBar/Navbar';
 
 // #BDE4F4
 // #404969
@@ -21,6 +22,7 @@ import ScrollToTop from '../components/ScrollToTop/top'
 export default function home() {
   return (
     <div>
+      <Navbar />
       <First />
       <AboutBallers />
       <Services />
