@@ -31,8 +31,7 @@ const ScrollToTopButton = () => {
   return (
     <div className={`scroll-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
     <ArrowUpOutline
-    color={'#ddd'} 
-    rotate 
+    color={'#ddd'}  
     height="25px"
     width="25px"
   />

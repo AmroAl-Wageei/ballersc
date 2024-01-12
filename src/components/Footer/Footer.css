@@ -9,7 +9,8 @@ footer .content .link-boxes .box .link_name .media-icon {
 }
 footer {
   /* position: fixed; */
-  background-color: #c9e9f6;
+  box-shadow: 1px 6px 9px 0px #000;
+  background-color: #fff;
   width: 100%;
   bottom: 0;
   left: 0;

@@ -35,7 +35,7 @@ https://templatemo.com/tm-538-digital-trend
   --secondary-color:      #DC552C;
   --white-color:          #ffffff;
   --dark-color:           #171819;
-  --project-bg:           #f0f8ff;
+  --project-bg:           #fff;
   --menu-bg:              #0c8195;
 
   --title-color:          #15141a;
@@ -60,7 +60,7 @@ https://templatemo.com/tm-538-digital-trend
 }
 
 body {
-  background: var(--white-color);
+  /* background: var(--white-color); */
   font-family: var(--base-font-family);
 }
 
@@ -190,7 +190,7 @@ a:focus {
 }
 
 .section-padding {
-  padding: 8em 0;
+  padding: 0em 0;
 }
 .section-padding-half {
   padding: 4em 0;
@@ -516,7 +516,7 @@ a:focus {
 }
 
 
-
+  
 /*---------------------------------------
    CONTACT              
 -----------------------------------------*/

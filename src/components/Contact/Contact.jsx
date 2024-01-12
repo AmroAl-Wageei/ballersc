@@ -6,65 +6,83 @@ import { useTranslation } from 'react-i18next';
 
 
 export default function Contact() {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
 
 
     <div className='container-contactus'>
-    <h2 class="speacial-heading">{t('contactus')}</h2>
-    <p>{t('tagline-contactus')}</p>
+      <h2 class="speacial-heading">{t('contactus')}</h2>
+      <p>{t('tagline-contactus')}</p>
 
 
 
-    <div className="contact_body">
+      <div className="contact_body">
 
-  <div className="contact_form">
-    <form action="" method="post">
-      <div>
-        <input
-          type="text"
-          className="form_control"
-          name="fname"
-          id="fname"
-          placeholder="Full Name"
-          required=""
-        />
+        <div className="contact_form">
+          <form
+            action="#"
+            method="post"
+            className="contact-form"
+            data-aos="fade-up"
+            data-aos-delay={300}
+          >
+            <div className="row">
+              <div className="col-lg-6 col-12">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="name"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div className="col-lg-6 col-12">
+                <input
+                  type="email"
+                  className="form-control"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div className="col-lg-6 col-12">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="address"
+                  placeholder="Address"
+                />
+              </div>
+              <div className="col-lg-6 col-12">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="phone"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div className="col-lg-12 col-12">
+                <textarea
+                  className="form-control"
+                  rows={6}
+                  name="message"
+                  placeholder="Message"
+                  defaultValue={""}
+                />
+              </div>
+              <div className="col-lg-5 mx-auto col-7">
+                <button
+                  type="submit"
+                  className="form-control"
+                  id="submit-button"
+                  name="submit"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-      <div>
-        <input
-          type="email"
-          className="form_control"
-          name="email"
-          id="email"
-          placeholder="Email"
-          required=""
-        />
-        <input
-          type="text"
-          className="form_control"
-          name="phone"
-          id="phone"
-          placeholder="Phone"
-          required=""
-        />
-      </div>
-      <textarea
-        className="form_control"
-        name="message"
-        id="message"
-        cols={30}
-        rows={5}
-        placeholder="Message"
-        defaultValue={""}
-      />
-      <input type="submit" className="send_btn" defaultValue="send message" />
-    </form>
-    <div>
-      <img src={ContactImg} alt="contact us" />
-    </div>
-  </div>
-</div>
 
 
     </div>
